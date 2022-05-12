@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html{boder:1px solid gray;}
+        div{border:5px solid tomato;
+            margin:10px;
+        }
+        #me{
+            position: relative;/*오프센 사용시*/
+/*            position: static;*//*정적임*/
+            left:100px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="other">other</div>
+    <div id="parent">
+       parent
+        <div id="me">me</div>
+    </div>
+</body>
+</html>
